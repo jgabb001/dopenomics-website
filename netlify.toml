@@ -1,0 +1,5 @@
+# Netlify configuration for the Dopenomics site.
+# The site is a single self-contained index.html at the repo root — no build step.
+[build]
+  publish = "."
+  command = ""
